@@ -31,6 +31,7 @@ if(typeof CCSE == 'undefined') Game.LoadMod('https://klattmose.github.io/CookieC
 		{
 			Game.wrinklers.push({id:parseInt(i),close:0,sucked:0,phase:0,x:0,y:0,r:0,hurt:0,hp:Game.wrinklerHP,selected:0,type:0});
 		}
+		if (Game.prefs.popups) Game.Popup('20 wrinklers loaded!');
 	}
 }
 
