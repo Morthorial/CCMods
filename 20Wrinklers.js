@@ -1,3 +1,10 @@
+Game.Win('Third-party');
+if(20Wrinkler === undefined) var 20Wrinkler = {};
+if(typeof CCSE == 'undefined') Game.LoadMod('https://klattmose.github.io/CookieClicker/' + (0 ? 'Beta/' : '') + 'CCSE.js');
+20Wrinkler.name = '20 Wrinklers';
+20Wrinkler.version = '1.0';
+20Wrinkler.GameVersion = '2.022';
+
 20Wrinkler.launch = function(){
 	20Wrinkler.init = function() {
 		function inRect(x,y,rect)
