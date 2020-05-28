@@ -1,4 +1,5 @@
-function inRect(x,y,rect)
+20Wrinklers.launch = function(){
+	function inRect(x,y,rect)
 	{
 		//find out if the point x,y is in the rotated rectangle rect{w,h,r,o} (width,height,rotation in radians,y-origin) (needs to be normalized)
 		//I found this somewhere online I guess
